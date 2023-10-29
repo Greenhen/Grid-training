@@ -134,7 +134,7 @@ q{
     "patrick patrick patrick patrick"
     ;
        grid-row-gap: 0;
-       height: 100vh;
+       height: auto;
     }
     h2{
         margin-bottom: 5%;
