@@ -46,6 +46,8 @@ img{
 
 .header{
     display: flex;
+    position: relative;
+    
 }
 .Box{
     padding: 6%;
@@ -57,6 +59,11 @@ img{
     grid-area: daniel;
     background-color: var(--violet);
     color:white;
+    background-image:url("./images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 0%;
+    background-size:23%;
+    
     
 }
 
@@ -92,6 +99,7 @@ img{
 .name{
     padding:2%;
     margin-left: 1%;
+    
 }
 .picture{
     text-align: center;
@@ -99,11 +107,10 @@ img{
     
 }
 
-
 .content{
     padding: 2%;
+    z-index: 1;
 }
-
 
 
 p, q{
@@ -123,6 +130,8 @@ p{
 q{
     font-size: 0.8vw;
 }
+
+
 @media screen and (max-width:768px) {
     .container{
         grid-template-columns: 100%;
@@ -154,5 +163,8 @@ q{
         width: 85%;
         margin: 0 auto;
         margin-bottom: 2%;
+    }
+    .daniel{
+        background-size: 30%;
     }
 }
